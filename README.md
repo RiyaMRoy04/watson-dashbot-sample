@@ -136,31 +136,24 @@ After you have the app deployed and running, you can explore the source files an
 * Modify the .html file to change the appearance of the app page.
 * Use the Conversation tool to train the service for new intents, or to modify the dialog flow. For more information, see the [Conversation service documentation][docs_landing].
 
-## Deploying to IBM Cloud (not covered in this workshop)
+## Deploying to IBM Cloud
 
 You can use Cloud Foundry to deploy your local version of the app to IBM Cloud.
 
 1. In the project root directory, open the `manifest.yml` file:
 
   * In the `applications` section of the `manifest.yml` file, change the `name` value to a unique name for your version of the demo app.
-  * In the `services` section, specify the name of the Conversation service instance you created for the demo app. If you do not remember the service name, use the `cf services` command to list all services you have created.
 
   The following example shows a modified `manifest.yml` file:
 
   ```yml
   ---
-  declared-services:
-   conversation-service:
-     label: conversation
-     plan: free
   applications:
   - name: conversation-simple-app-test1
    command: npm start
    path: .
    memory: 256M
    instances: 1
-   services:
-   - my-conversation-service
    env:
      NPM_CONFIG_PRODUCTION: false
   ```
