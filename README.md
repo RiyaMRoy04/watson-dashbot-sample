@@ -202,3 +202,5 @@ Find more open source projects on the
 [credentials]: ./readme_images/credentials.PNG "alt text"
 [WatsonCatalogOfferings]: ./readme_images/WatsonCatalogOfferings.png "alt text"
 [env_file]: ./readme_images/env_file.png "alt text"
+
+This is a clone of this [Github repo](https://github.com/akeller/chatbot-dashbot-workshop) with few edits!
