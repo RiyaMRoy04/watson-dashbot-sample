@@ -23,7 +23,7 @@
     "dashbot": "^9.4.3",
     "dotenv": "^2.0.0",
     "express": "^4.16.1",
-    "watson-developer-cloud": "^2.40.0"
+    "watson-developer-cloud": "^4.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
@@ -31,9 +31,9 @@
     "codecov": "^1.0.1",
     "eslint": "^2.8.0",
     "istanbul": "^0.4.2",
-    "mocha": "^2.4.5",
-    "phantomjs-prebuilt": "^2.1.15",
-    "supertest": "^1.2.0"
+    "mocha": "^5.2.0",
+    "phantomjs-prebuilt": "^2.1.16",
+    "supertest": "^3.3.0"
   },
   "engines": {
     "node": ">= 6.9.x",
