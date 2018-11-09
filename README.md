@@ -169,6 +169,9 @@ You can use Cloud Foundry to deploy your local version of the app to IBM Cloud.
 
 Follow the documentation in the Deploy section of your workspace.
 
+This is a clone of [chatbot-dashbot-workshop Github repo](https://github.com/akeller/chatbot-dashbot-workshop) with few edits!
+Thanks to [Amara Keller](https://github.com/akeller) for this sample code. 
+
 ## License
 
 This sample code is licensed under Apache 2.0.
@@ -202,5 +205,3 @@ Find more open source projects on the
 [credentials]: ./readme_images/credentials.PNG "alt text"
 [WatsonCatalogOfferings]: ./readme_images/WatsonCatalogOfferings.png "alt text"
 [env_file]: ./readme_images/env_file.png "alt text"
-
-This is a clone of this [Github repo](https://github.com/akeller/chatbot-dashbot-workshop) with few edits!
